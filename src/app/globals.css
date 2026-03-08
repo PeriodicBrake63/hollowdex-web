@@ -12,6 +12,10 @@
   --radius-global: 16px;
 }
 
+.rounded-global {
+  border-radius: var(--radius-global);
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
