@@ -1,0 +1,60 @@
+{
+    "crawlid": {
+        "name": "Crawlid",
+        "category": "forgotten_crossroads",
+        "path": "assets/enemies/forgotten_crossroads/crawlid.png",
+        "health": 80,
+        "attack": 45,
+        "ability": 0,
+        "rarity": 0.1
+    },
+    "tiktik": {
+        "name": "Tiktik",
+        "category": "forgotten_crossroads",
+        "path": "assets/enemies/forgotten_crossroads/tiktik.png",
+        "health": 80,
+        "attack": 20,
+        "ability": 0,
+        "rarity": 0.1
+    },
+    "vengefly": {
+        "name": "Vengefly",
+        "category": "forgotten_crossroads",
+        "path": "assets/enemies/forgotten_crossroads/vengefly.png",
+        "health": 80,
+        "attack": 30,
+        "ability": 0,
+        "rarity": 0.1
+    },
+    "gruzzer": {
+        "name": "Gruzzer",
+        "category": "forgotten_crossroads",
+        "path": "assets/enemies/forgotten_crossroads/gruzzer.png",
+        "health": 100,
+        "attack": 35,
+        "ability": 0,
+        "rarity": 0.15
+    },
+    "vengefly king": {
+        "name": "Vengefly King",
+        "category": "forgotten_crossroads",
+        "path": "assets/enemies/forgotten_crossroads/v_king.png",
+        "health": 120,
+        "attack": 65,
+        "ability": {
+            "type": "summon",
+            "summons": "vengefly",
+            "count": 2
+        },
+        "rarity": 0.5
+    },
+    "knight": {
+        "name": "the Knight",
+        "category": "forgotten_crossroads",
+        "path": "assets/enemies/forgotten_crossroads/knight.png",
+        "health": 99999,
+        "attack": 99999,
+        "ability": 0,
+        "rarity": "infinite"
+    }
+}
