@@ -12,6 +12,7 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   title: "HollowDex - Home",
   description: "HollowDex web platform",
+  icons: "/favicon.ico",
 };
 
 export default function RootLayout({
@@ -21,6 +22,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
+      <head>
+        <link rel="icon" href="/favicon.ico"/>
+      </head>
       <body
         className={`${spaceGrotesk.variable} font-sans antialiased selection:bg-primary/30 min-h-screen bg-background text-foreground flex flex-col`}
       >
