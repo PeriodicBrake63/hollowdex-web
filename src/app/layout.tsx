@@ -24,6 +24,7 @@ export default function RootLayout({
     <html lang="en" className="dark">
       <head>
         <link rel="icon" href="/favicon.ico"/>
+        <meta name="google-site-verification" content="Pl7LKG2wfUCTKvsMr2wNLcku0pgp-ZNOaZNqZaO4mcM" />
       </head>
       <body
         className={`${spaceGrotesk.variable} font-sans antialiased selection:bg-primary/30 min-h-screen bg-background text-foreground flex flex-col`}
