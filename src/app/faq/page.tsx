@@ -13,64 +13,34 @@ export const metadata = {
 
 const faqData = [
   {
-    question: 'What is HollowDex?',
+    question: 'Is HollowDex legal?',
     answer:
-      'HollowDex is a free Discord bot that lets you collect, trade, and battle with trading cards featuring enemies from Hollow Knight. Catch creatures from across Hallownest and build your ultimate collection.',
+      'Yes! HollowDex is a fan-made Discord bot and is not affiliated with, supported, or endorsed by Team Cherry. All Hollow Knight assets and trademarks belong to Team Cherry.',
   },
   {
     question: 'How do I add HollowDex to my Discord server?',
     answer:
-      "Click the 'Add to Discord' button on our homepage. You'll need Discord server management permissions to authorize the bot. Once added, it will be ready to use!",
+      "Click the 'Add to Discord' button on our homepage. You'll need Discord server management permissions to authorize the bot. Once added, set a spawn channel using /server spawnch.",
   },
   {
     question: 'Is HollowDex free to use?',
     answer:
-      'Yes! HollowDex is completely free to use on any Discord server. There are no premium features or paywalls.',
+      'Yes! HollowDex is completely free to use on any Discord server.',
   },
   {
     question: 'How do I catch enemies?',
     answer:
-      'Use the /catch command when an enemy appears in your server. Each enemy has different rarity levels, so keep trying to complete your collection!',
+      'When a wild enemy appears in your spawn channel, click the "Catch!" button. Your catch chance depends on your total attack power compared to the enemy\'s health. Each player gets 3 attempts before the enemy flees!',
   },
   {
-    question: 'Can I trade cards with other players?',
+    question: 'How do I trade cards with other players?',
     answer:
-      "Absolutely! Use the /trade command to exchange duplicate cards with other players. Trading is a great way to complete your HollowDex collection.",
+      'Use /trade begin @user to start a trade, then /trade add to add cards you want to exchange. Trades are completed when both parties agree.',
   },
   {
     question: 'How do battles work?',
     answer:
-      'Challenge other players using the /battle command. Your cards stats determine the outcome. Win battles to climb the leaderboard and earn rewards!',
-  },
-  {
-    question: 'How many enemies can I collect?',
-    answer:
-      'HollowDex features enemies from every area of Hallownest, including bosses, mini-bosses, and regular enemies. New enemies are added with each game update.',
-  },
-  {
-    question: 'What are card rarities?',
-    answer:
-      'Cards come in multiple rarity tiers: Common, Uncommon, Rare, Epic, and Legendary. Legendary cards are the rarest and most powerful!',
-  },
-  {
-    question: 'How do I view my collection?',
-    answer:
-      'Use the /dex command to view your complete collection. The /stats command shows your player statistics and progress.',
-  },
-  {
-    question: 'Where can I report bugs or suggest features?',
-    answer:
-      "Visit our contact page or join our Discord server. We welcome feedback and are always looking to improve HollowDex based on community suggestions.",
-  },
-  {
-    question: 'Does HollowDex work with Discord mobile?',
-    answer:
-      'Yes! HollowDex works on both desktop and mobile Discord versions. All commands function the same way regardless of platform.',
-  },
-  {
-    question: 'How often are new enemies added?',
-    answer:
-      "We update HollowDex regularly with new enemies from Hollow Knight. Follow our Discord server or check the homepage for announcements about new additions.",
+      'Challenge other players using /battle @user. Your cards\' attack and health stats are compared against your opponent\'s. Win battles to climb the leaderboard!',
   },
 ];
 
